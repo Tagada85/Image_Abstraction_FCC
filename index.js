@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const SearchDB = require('./searches.js');
 
 search = new Search('XJe/MMPk6neMfRqG5NrcwGmljZ1maHQ7EEhDpNhQ2bY');
-mongoose.connect("mongodb://localhost:27017/image");
+mongoose.connect("mongodb://Tagada85:kallon85@ds145315.mlab.com:45315/image");
 const db = mongoose.connection;
 
 db.on('open', ()=>{
