@@ -1,0 +1,17 @@
+{
+  "name": "image_abstraction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "express": "^4.14.0",
+    "jquery": "^3.0.0",
+    "mongoose": "^4.5.2"
+  }
+}
