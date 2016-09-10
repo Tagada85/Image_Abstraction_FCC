@@ -10,6 +10,7 @@ const SearchDB = require('./searches.js');
 search = new Search('XJe/MMPk6neMfRqG5NrcwGmljZ1maHQ7EEhDpNhQ2bY');
 mongoose.connect("mongodb://Tagada85:kallon85@ds145315.mlab.com:45315/image");
 const db = mongoose.connection;
+const port = process.env.PORT || 3000;
 
 db.on('open', ()=>{
 	console.log('connected to db');
@@ -90,5 +91,5 @@ function getQuerySafe(url){
 	return safeQuery;
 }
 
-app.listen(3000);
+app.listen(port);
 
